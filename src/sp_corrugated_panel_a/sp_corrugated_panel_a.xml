@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<definition name="Corrugated Panel" category="8" type="9" mass="0.25" value="5" flags="24" tags="SP,mod,structural" mesh_data_name="sp_corrugated_panel.mesh" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" engine_max_force="1000" rudder_surface_area="0">
+<definition name="Corrugated Panel (Type A)" category="8" type="9" mass="0.25" value="5" flags="24" tags="SP,mod,structural" mesh_data_name="sp_corrugated_panel_a.mesh" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" engine_max_force="1000" rudder_surface_area="0">
 	<tooltip_properties short_description="A corrugated panel block."/>
 	<sfx_datas/>
 	<surfaces>
