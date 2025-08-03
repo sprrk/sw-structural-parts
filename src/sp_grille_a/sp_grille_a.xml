@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<definition name="Grille (Type A)" category="8" type="9" mass="0.1" value="5" flags="40" tags="SP,mod,structural" mesh_data_name="sp_grille_a.mesh" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" engine_max_force="1000" rudder_surface_area="0">
+<definition name="Grille (Type A)" category="8" type="9" mass="0.1" value="5" flags="40" tags="SP,mod,structural,vent" mesh_data_name="sp_grille_a.mesh" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" engine_max_force="1000" rudder_surface_area="0">
 	<tooltip_properties short_description="A grille block. Does not block fluids."/>
 	<sfx_datas/>
 	<surfaces>
