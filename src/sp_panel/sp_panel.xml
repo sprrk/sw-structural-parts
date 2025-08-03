@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<definition name="Glass Panel" category="8" type="6" mass="0.25" value="10" flags="40" tags="SP,mod,structural,window" mesh_data_name="sp_glass_panel.mesh" mesh_editor_only_name="sp_glass_panel_editor.mesh" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" engine_max_force="1000" rudder_surface_area="0">
-	<tooltip_properties short_description="A glass panel block."/>
+<definition name="Panel" category="8" type="6" mass="0.1" value="5" flags="40" tags="SP,mod,structural" mesh_data_name="sp_panel.mesh" mesh_editor_only_name="sp_panel_editor.mesh" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" engine_max_force="1000" rudder_surface_area="0">
+	<tooltip_properties short_description="A panel block. Watertight."/>
 	<sfx_datas/>
 	<surfaces>
 		<surface orientation="2">
@@ -21,7 +21,7 @@
 		<surface orientation="1">
 			<position/>
 		</surface>
-		<surface>
+		<surface orientation="0">
 			<position/>
 		</surface>
 	</surfaces>

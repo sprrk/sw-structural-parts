@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 4.5.1 LTS commit date:2025-07-29, commit time:05:31, hash:b0a72b245dcf</authoring_tool>
     </contributor>
-    <created>2025-08-02T21:51:48</created>
-    <modified>2025-08-02T21:51:48</modified>
+    <created>2025-08-03T09:50:37</created>
+    <modified>2025-08-03T09:50:37</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -59,7 +59,7 @@
     <geometry id="Cube_019-mesh" name="Cube.019">
       <mesh>
         <source id="Cube_019-mesh-positions">
-          <float_array id="Cube_019-mesh-positions-array" count="24">-0.125 -0.125 -0.165 -0.125 -0.125 -0.125 0.125 -0.125 -0.125 0.125 -0.125 -0.165 -0.125 0.125 -0.125 -0.125 0.125 -0.165 0.125 0.125 -0.165 0.125 0.125 -0.125</float_array>
+          <float_array id="Cube_019-mesh-positions-array" count="24">-0.1251 -0.1251 -0.1651 -0.1251 -0.1251 -0.1249 0.1251 -0.1251 -0.1249 0.1251 -0.1251 -0.1651 -0.1251 0.1251 -0.1249 -0.1251 0.1251 -0.1651 0.1251 0.1251 -0.1651 0.1251 0.1251 -0.1249</float_array>
           <technique_common>
             <accessor source="#Cube_019-mesh-positions-array" count="8" stride="3">
               <param name="X" type="float"/>
@@ -69,9 +69,9 @@
           </technique_common>
         </source>
         <source id="Cube_019-mesh-normals">
-          <float_array id="Cube_019-mesh-normals-array" count="30">0 -1 0 1 0 0 0 1 0 -1 0 0 0 0 -1 0 -1 0 1 0 0 0 1 0 -1 0 0 0 0 -1</float_array>
+          <float_array id="Cube_019-mesh-normals-array" count="36">0 -1 0 1 0 0 0 1 0 -1 0 0 0 0 -1 0 0 1 0 -1 0 1 0 0 0 1 0 -1 0 0 0 0 -1 0 0 1</float_array>
           <technique_common>
-            <accessor source="#Cube_019-mesh-normals-array" count="10" stride="3">
+            <accessor source="#Cube_019-mesh-normals-array" count="12" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
@@ -79,9 +79,9 @@
           </technique_common>
         </source>
         <source id="Cube_019-mesh-map-0">
-          <float_array id="Cube_019-mesh-map-0-array" count="60">0.375 0.5 0.4375 0.5 0.375 0.5 0.4375 0.75 0.375 0.75 0.375 0.75 0.4375 0.5 0.375 0.5 0.4375 0.5 0.375 0.75 0.4375 0.75 0.375 0.75 0.375 0.75 0.375 0.75 0.375 0.75 0.375 0.5 0.4375 0.5 0.4375 0.5 0.4375 0.75 0.4375 0.75 0.375 0.75 0.4375 0.5 0.375 0.5 0.375 0.5 0.375 0.75 0.4375 0.75 0.4375 0.75 0.375 0.75 0.375 0.5 0.375 0.75</float_array>
+          <float_array id="Cube_019-mesh-map-0-array" count="72">0.375 0.5 0.4375 0.5 0.375 0.5 0.4375 0.75 0.375 0.75 0.375 0.75 0.4375 0.5 0.375 0.5 0.4375 0.5 0.375 0.75 0.4375 0.75 0.375 0.75 0.375 0.75 0.375 0.75 0.375 0.75 0.4375 0.5 0.4375 0.5 0.4375 0.5 0.375 0.5 0.4375 0.5 0.4375 0.5 0.4375 0.75 0.4375 0.75 0.375 0.75 0.4375 0.5 0.375 0.5 0.375 0.5 0.375 0.75 0.4375 0.75 0.4375 0.75 0.375 0.75 0.375 0.5 0.375 0.75 0.4375 0.5 0.4375 0.75 0.4375 0.5</float_array>
           <technique_common>
-            <accessor source="#Cube_019-mesh-map-0-array" count="30" stride="2">
+            <accessor source="#Cube_019-mesh-map-0-array" count="36" stride="2">
               <param name="S" type="float"/>
               <param name="T" type="float"/>
             </accessor>
@@ -94,22 +94,22 @@
           <input semantic="VERTEX" source="#Cube_019-mesh-vertices" offset="0"/>
           <input semantic="NORMAL" source="#Cube_019-mesh-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#Cube_019-mesh-map-0" offset="2" set="0"/>
-          <p>0 4 12 6 4 13 3 4 14 0 9 27 5 9 28 6 9 29</p>
+          <p>0 4 12 6 4 13 3 4 14 0 10 30 5 10 31 6 10 32</p>
         </triangles>
-        <triangles material="editable2_008-material" count="8">
+        <triangles material="editable2_008-material" count="10">
           <input semantic="VERTEX" source="#Cube_019-mesh-vertices" offset="0"/>
           <input semantic="NORMAL" source="#Cube_019-mesh-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#Cube_019-mesh-map-0" offset="2" set="0"/>
-          <p>3 0 0 1 0 1 0 0 2 7 1 3 3 1 4 6 1 5 7 2 6 5 2 7 4 2 8 0 3 9 4 3 10 5 3 11 3 5 15 2 5 16 1 5 17 7 6 18 2 6 19 3 6 20 7 7 21 6 7 22 5 7 23 0 8 24 1 8 25 4 8 26</p>
+          <p>3 0 0 1 0 1 0 0 2 7 1 3 3 1 4 6 1 5 7 2 6 5 2 7 4 2 8 0 3 9 4 3 10 5 3 11 7 5 15 1 5 16 2 5 17 3 6 18 2 6 19 1 6 20 7 7 21 2 7 22 3 7 23 7 8 24 6 8 25 5 8 26 0 9 27 1 9 28 4 9 29 7 11 33 4 11 34 1 11 35</p>
         </triangles>
       </mesh>
     </geometry>
   </library_geometries>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
-      <node id="offset_panel" name="offset_panel" type="NODE">
+      <node id="panel_offset" name="panel_offset" type="NODE">
         <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
-        <instance_geometry url="#Cube_019-mesh" name="offset_panel">
+        <instance_geometry url="#Cube_019-mesh" name="panel_offset">
           <bind_material>
             <technique_common>
               <instance_material symbol="editable1_011-material" target="#editable1_011-material">

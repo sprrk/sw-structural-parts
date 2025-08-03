@@ -5,7 +5,7 @@
 Note: This part does not have any physics."/>
 	<sfx_datas/>
 	<surfaces>
-		<surface orientation="2" shape="1">
+		<surface orientation="2">
 			<position y="-1"/>
 		</surface>
 		<surface orientation="4">
